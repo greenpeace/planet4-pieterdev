@@ -3,7 +3,7 @@ version: 2
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:build-798
+    - image: greenpeaceinternational/p4-builder:test-build-assets-in-dev-plugin-branches
 
 job_environments:
   common_environment: &common_environment
