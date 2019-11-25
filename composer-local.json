@@ -3,7 +3,8 @@
 	"description": "Greenpeace P4 pieterdev",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-child-theme" : "dev-develop"
+		"greenpeace/planet4-child-theme" : "dev-develop",
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "test-remove-build-files"
 	},
 	"scripts": {
 		"site:custom" : []
