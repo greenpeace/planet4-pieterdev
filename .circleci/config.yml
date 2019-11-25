@@ -3,8 +3,8 @@ version: 2
 
 defaults: &defaults
   docker:
-#    - image: greenpeaceinternational/p4-builder:test-build-assets-in-dev-plugin-branches
-    - image: gcr.io/planet-4-151612/p4-builder:latest
+    - image: greenpeaceinternational/p4-builder:test-build-assets-in-dev-plugin-branches
+#    - image: gcr.io/planet-4-151612/p4-builder:latest
 
 job_environments:
   common_environment: &common_environment
