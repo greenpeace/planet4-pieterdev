@@ -3,7 +3,8 @@ version: 2
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:build-796
+    - image: gcr.io/planet-4-151612/p4-builder:latest
+#    - image: greenpeaceinternational/p4-builder:build-796
 
 job_environments:
   common_environment: &common_environment
