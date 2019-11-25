@@ -2,13 +2,6 @@
 	"name": "greenpeace/planet4-pieterdev",
 	"description": "Greenpeace P4 pieterdev",
 	"license": "MIT",
-	"require": {
-		"greenpeace/plan797et4-child-theme" : "dev-develop",
-		"greenpeace/planet4-master-theme" : "dev-develop",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-develop"
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"scripts": {
 		"site:custom" : []
 	}
