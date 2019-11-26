@@ -11,8 +11,8 @@ job_environments:
     APP_HOSTPATH: pieterdev
     CONTAINER_PREFIX: planet4-pieterdev
     WP_DB_NAME_PREFIX: planet4-pieterde_wordpress
-    PLUGIN_GUTENBERG_BLOCKS_BRANCH: test-remove-build-files
-    MASTER_THEME_BRANCH: test-remove-build-files
+    PLUGIN_GUTENBERG_BLOCKS_BRANCH: dev-test-remove-build-files
+    MASTER_THEME_BRANCH: dev-test-remove-build-files
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
     APP_HOSTNAME: k8s.p4.greenpeace.org
