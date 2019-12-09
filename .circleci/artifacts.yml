@@ -11,5 +11,5 @@ job_environments:
     HELM_NAMESPACE: develop
     HELM_RELEASE: planet4-pieterdev
     NEWRELIC_APPNAME: P4 PieterDev Development
-    WP_DB_NAME: planet4-pieterdev_wordpress_develop
+    WP_DB_NAME: planet4-pieterde_wordpress_develop
     WP_STATELESS_BUCKET: planet4-pieterdev-stateless-develop

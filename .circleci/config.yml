@@ -8,7 +8,7 @@ job_environments:
   common_environment: &common_environment
     APP_HOSTPATH: pieterdev
     CONTAINER_PREFIX: planet4-pieterdev
-    WP_DB_NAME_PREFIX: planet4-pieterdev_wordpress
+    WP_DB_NAME_PREFIX: planet4-pieterde_wordpress
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
     APP_HOSTNAME: k8s.p4.greenpeace.org
@@ -18,7 +18,7 @@ job_environments:
     HELM_NAMESPACE: develop
     HELM_RELEASE: planet4-pieterdev
     NEWRELIC_APPNAME: P4 PieterDev Development
-    WP_DB_NAME: planet4-pieterdev_wordpress_develop
+    WP_DB_NAME: planet4-pieterde_wordpress_develop
     WP_STATELESS_BUCKET: planet4-pieterdev-stateless-develop
 
 job_definitions:
