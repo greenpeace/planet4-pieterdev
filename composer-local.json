@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 pieterdev",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-PLANET-4562"
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-demo-4609-4562"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable" : true,
