@@ -9,9 +9,5 @@
 	"minimum-stability": "dev",
 	"prefer-stable" : true,
 	"scripts": {
-		"install:plugin-image-optim": "wp plugin install --activate https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.1.3.zip",
-		"site:custom": [
-			"@install:plugin-image-optim"
-		]
 	}
 }
