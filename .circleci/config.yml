@@ -165,12 +165,11 @@ workflows:
           <<: *develop_common
       - build-branch:
           <<: *develop_common
-          requires:
-            - backstop-history-develop
       - deploy-develop:
           <<: *develop_common
           requires:
             - build-branch
+            - backstop-history-develop
       - test-develop:
           <<: *develop_common
           requires:
