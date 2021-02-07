@@ -3,8 +3,8 @@
 	"description": "Greenpeace P4 pieterdev",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-collect-vars",
-		"greenpeace/planet4-master-theme" : "dev-wysiwyg-vars"
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-wysiwyg-vars",
+		"greenpeace/planet4-master-theme" : "dev-collect-vars"
 	},
 	"minimum-stability": "dev",
 	"prefer-stable" : true,
