@@ -6,7 +6,7 @@
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-wysiwyg-vars",
 		"greenpeace/planet4-master-theme" : "dev-collect-vars"
 	},
-	"data_from": "international",
+	"data_from": "netherlands",
 	"minimum-stability": "dev",
 	"prefer-stable" : true,
 	"scripts": {
