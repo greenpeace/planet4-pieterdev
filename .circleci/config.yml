@@ -7,8 +7,8 @@ parameters:
     default: false
 
 docker_auth: &docker_auth
-    username: $DOCKERHUB_USERNAME
-    password: $DOCKERHUB_PASSWORD
+  username: $DOCKERHUB_USERNAME
+  password: $DOCKERHUB_PASSWORD
 
 defaults: &defaults
   docker:
@@ -156,7 +156,7 @@ job_definitions:
   test_steps: &test_steps
     working_directory: ~/project
     docker:
-      - image: gcr.io/planet-4-151612/p4-codeception:build-12
+      - image: greenpeaceinternationa/p4-codeception:latest
       - name: selenium
         image: selenium/standalone-chrome-debug:3.141.59-oxygen
         auth:
@@ -281,23 +281,23 @@ workflow_definitions:
 workflows:
   develop:
     jobs:
-#      - visualtests-reference-develop:
-#          <<: *on_develop_commit
+      - visualtests-reference-develop:
+          <<: *on_develop_commit
       - build-develop:
           <<: *on_develop_commit
       - deploy-develop:
           <<: *on_develop_commit
           requires:
             - build-develop
-#           - visualtests-reference-develop
+            - visualtests-reference-develop
       - test-develop:
           <<: *on_develop_commit
           requires:
             - deploy-develop
-#     - visualtests-compare-develop:
-#         <<: *on_develop_commit
-#         requires:
-#           - deploy-develop
+      - visualtests-compare-develop:
+          <<: *on_develop_commit
+          requires:
+            - deploy-develop
       - data-sync:
           <<: *on_develop_commit
           requires:
