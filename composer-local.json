@@ -3,8 +3,8 @@
 	"description": "Greenpeace P4 pieterdev",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-campaign-to-vars",
-		"greenpeace/planet4-master-theme" : "dev-campaign-to-vars"
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-fix-missing-srcset-gallery",
+		"greenpeace/planet4-master-theme" : "dev-master"
 	},
 	"data_from": "netherlands",
 	"minimum-stability": "dev",
