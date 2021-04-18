@@ -3,8 +3,8 @@
 	"description": "Greenpeace P4 pieterdev",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master",
-		"greenpeace/planet4-master-theme" : "dev-detect-missing-image-sizes"
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-responsive-theme-editor",
+		"greenpeace/planet4-master-theme" : "dev-more-responsive-styles"
 	},
 	"data_from": "netherlands",
 	"minimum-stability": "dev",
