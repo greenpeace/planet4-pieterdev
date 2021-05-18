@@ -5,7 +5,7 @@
 	"require": {
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-new-themes-in-sidebar",
 		"greenpeace/planet4-master-theme" : "dev-more-responsive-styles",
-		"wpackagist-plugin/notification": :"7.2.4"
+		"wpackagist-plugin/notification": "7.2.4"
 	},
 	"data_from": "netherlands",
 	"minimum-stability": "dev",
