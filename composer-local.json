@@ -3,9 +3,9 @@
 	"description": "Greenpeace P4 pieterdev",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-new-themes-in-sidebar",
+		"wpackagist-plugin/notification": "7.2.4",
 		"greenpeace/planet4-master-theme" : "dev-slack-notifications",
-		"wpackagist-plugin/notification": "7.2.4"
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-new-themes-in-sidebar"
 	},
 	"data_from": "netherlands",
 	"minimum-stability": "dev",
