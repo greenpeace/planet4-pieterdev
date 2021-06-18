@@ -7,7 +7,6 @@
 		"greenpeace/planet4-master-theme" : "dev-slack-notifications",
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-new-themes-in-sidebar"
 	},
-	"data_from": "netherlands",
 	"minimum-stability": "dev",
 	"prefer-stable" : true,
 	"scripts": {
